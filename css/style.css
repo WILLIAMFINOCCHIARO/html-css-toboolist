@@ -1,0 +1,54 @@
+/* settings css and page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /setting css and page*/
+
+/* start layout */
+body {
+  background-color:rgba(221, 14, 14, 0.651);
+}
+
+.container {
+  margin:40px auto;
+  width: 60%;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* /layout */
+
+/* start header */
+header {
+  background-color: white;
+
+}
+/* /header */
+
+/* start logo */
+.logo>img {
+  height: 60px;
+  margin-left: 20px;
+}
+.logo {
+  display: inline-block;
+}
+
+/* /logo */
+/* start title */
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  display: inline-block;
+  vertical-align:top;
+  margin-top: 5px;
+}
+
+/* /title */
