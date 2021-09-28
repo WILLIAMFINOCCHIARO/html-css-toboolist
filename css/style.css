@@ -60,11 +60,11 @@ h1 {
 .button {
   border-radius: 6px;
   border:1px solid white;
-  color: white;
+  color: rgba(255, 255, 255, 0.87);
   padding: 8px;
   background-color:rgb(0, 140, 255);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
 }
 .initbutton {
   margin:0 30px 10px;
@@ -91,6 +91,7 @@ h3 {
   font-weight: 900;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:rgba(0, 0, 0, 0.781);
+  line-height: 40px;
 }
 /* end titles */
 
@@ -109,7 +110,55 @@ h3 {
   border-radius: 50%;
   padding: 2px;
   font-size: 12px;
-
 }
 
 /* /simbols */
+/* wrters of main  */
+.newtask,.today,.upcoming {
+  color:gray;
+  font-weight: 300;
+}
+
+/* /writers of main */
+
+/* main buttons */
+.butt {
+  display: inline-block;
+  border-radius: 10px ;
+  border: 1px solid white;
+  padding: 1px 6px;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+  line-height: 30px;
+}
+
+.blue {
+  background-color:rgb(0, 140, 255);
+}
+.beige {
+  background-color:rgb(165, 120, 62);
+}
+.pink {
+  background-color:rgb(255, 0, 170);
+}
+.purple{
+  background-color:rgb(107, 42, 98);
+}
+.orange {
+  background-color:rgb(255, 72, 0);
+}
+.green {
+  background-color:rgb(20, 173, 58);
+}
+
+.today>div, .upcoming>div, .newtask>div {
+  display: inline-block;
+}
+
+#firstupcoming {
+  line-height: 30px;
+}
+
+
+/* / main buttons */
