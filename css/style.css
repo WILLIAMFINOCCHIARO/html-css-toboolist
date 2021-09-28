@@ -1,14 +1,14 @@
-/* settings css and page*/
+/* settings css*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* /setting css and page*/
+/* /setting css*/
 
 /* start layout */
 body {
-  background-color:gray;
+  background-color:rgb(240, 235, 235);
 }
 
 .container {
@@ -72,10 +72,9 @@ h1 {
 }
 
 .white {
-  border: 1px solid gray;
+  border: 1px solid rgb(240, 235, 235);;
   background-color: white;
-  color:gray;
-
+  color:rgb(240, 235, 235);
 }
 /* /init buttons */
 
@@ -160,5 +159,8 @@ h3 {
   line-height: 30px;
 }
 
+h3 span {
+  font-size: 15px;
+}
 
 /* / main buttons */
