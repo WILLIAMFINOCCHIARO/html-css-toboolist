@@ -82,11 +82,34 @@ h1 {
 
 
 /* /main */
+.newtask, .upcoming, .today {
+  margin:0 30px 10px;
+}
 /* start titles */
-span {
+h3 {
   font-size: 20px;
   font-weight: 900;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:rgba(0, 0, 0, 0.781);
 }
 /* end titles */
+
+/* start simbols */
+.enable {
+  color:green;
+  border:1px solid green;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.cross {
+  color:red;
+  border:1px solid red;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+
+}
+
+/* /simbols */
